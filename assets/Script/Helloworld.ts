@@ -12,7 +12,7 @@ export default class Helloworld extends cc.Component {
         this.node.getChildByName("label2").getComponent(LanLabel).lanString = [
             { key: "zs", isLan: true },
             { key: "  ", isLan: false },
-            { key: "love", isLan: false },
+            { key: "love", isLan: true },
             { key: "  ", isLan: false },
             { key: "ls", isLan: true }
         ];
